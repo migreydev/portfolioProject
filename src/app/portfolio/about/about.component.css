@@ -1,60 +1,149 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; 
+}
 
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px; /* Ajustar el espacio entre la navbar y el contenido */
+  padding-bottom: 80px;
+  min-height: 100vh; /* Asegurar que el contenido ocupe al menos toda la pantalla */
+  box-sizing: border-box;
+}
 
-  .content {
-    display: flex;
-    align-items: center;
-  }
+.content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px; 
+  margin-bottom: 20px;
+}
 
-  .text-container {
-    margin-right: 30px;
-  }
+.text-container {
+  margin-right: 30px;
+}
 
-  .gradient-text {
-    background: linear-gradient(90deg, #ad00ff -0.4%, #ffb800 92.07%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
-    font-size: 90px;
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
-    margin-bottom: 20px;
-  }
+.gradient-text {
+  background: linear-gradient(90deg, #ad00ff -0.4%, #ffb800 92.07%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 90px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  margin-bottom: 20px;
+}
 
-  .second-line {
-    display: block;
-    font-size: 60px;
-    margin-top: 0;
-    padding-left: 100px;
-  }
+.second-line {
+  display: block;
+  font-size: 60px;
+  margin-top: 0;
+  padding-left: 100px;
+}
 
-  img {
-    width: 330px;
-    height: auto;
-  }
+img {
+  width: 330px;
+  height: auto;
+}
 
-  p {
-    color: #ffffff;
-    font-size: 20px;
-    font-family: "Anton", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin: 5px 0 0 0; 
-  }
+.overlay-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+  padding-top: 80px; 
+}
+
+.overlay {
+  background-color: rgba(44, 43, 43, 0.603);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin-top: 10px;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-32 {
+  gap: 2rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.acorn-bold {
+  font-weight: 700;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 5px 0;
+}
+
+.title {
+  color: #948f8f;
+  font-size: 15px;
+  font-family: "Anton", sans-serif;
+  font-weight: 180;
+  font-style: normal;
+  margin: 5px 0 0 0;
+}
+
+.acorn-bold {
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  font-family: "Anton", sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px 0 20px 0;
+}
+
+.latte-image {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 3%;
+}
