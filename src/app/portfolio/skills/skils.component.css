@@ -18,8 +18,25 @@
   margin-bottom: 20px;
 }
 
+.gradient-text {
+  background: linear-gradient(90deg, #ad00ff -0.4%, #ffb800 75.07%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 70px;
+  font-family: "Anton", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
 .text-container {
   margin-right: 30px;
+  padding: 0 10px;
+  max-width: 1000px;
 }
 
 .description {
@@ -47,10 +64,10 @@
 
 .logos-container img,
 .logos-container svg {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 20%;
   transition: transform 0.3s ease-in-out;
 }
 
