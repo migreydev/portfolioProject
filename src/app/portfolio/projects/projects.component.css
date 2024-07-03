@@ -1,11 +1,10 @@
-
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 60px; /* Ajustar el espacio entre la navbar y el contenido */
+  padding-top: 60px;
   padding-bottom: 80px;
-  min-height: 100vh; /* Asegurar que el contenido ocupe al menos toda la pantalla */
+  min-height: 100vh;
   box-sizing: border-box;
 }
 
@@ -13,7 +12,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  padding-top: 100px; 
+  padding-top: 100px;
   margin-bottom: 20px;
 }
 
@@ -39,21 +38,22 @@
 }
 
 .overlay {
-    background-color: rgba(44, 43, 43, 0.603); /* Fondo negro transparente */
-    padding: 30px;
-    border-radius: 20px;
-    max-width: 1000px;
-    margin-top: 10px;
-    color: white;
-  }
-  
+  background-color: rgba(44, 43, 43, 0.603);
+  padding: 30px;
+  max-width: 1000px;
+  margin-top: 10px;
+  color: white;
+  border: 1px solid;
+  border-image: linear-gradient(90deg, #ad00ff -0.4%, #ffb800 92.07%) 1;
+}
 
 .card {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(44, 43, 43, 0.603);
   border-radius: 8px;
   overflow: hidden;
-  background: #fff; /* Fondo blanco de la tarjeta */
+  background: rgba(44, 43, 43, 0.603);
   margin: 0 auto;
+  color: white;
 }
 
 .card-img {
@@ -81,13 +81,13 @@
 }
 
 .btn-dark {
-  background-color: #343a40; /* Color de fondo oscuro del botón */
-  color: #fff; /* Color del texto del botón */
+  background-color: #343a40;
+  color: #fff;
   border: none;
 }
 
 .btn-dark:hover {
-  background-color: #23272b; /* Color del botón en hover */
+  background-color: #23272b;
 }
 
 @media (max-width: 768px) {

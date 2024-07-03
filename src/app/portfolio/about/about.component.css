@@ -3,16 +3,16 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif; 
+  font-family: Arial, sans-serif;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 60px; /* Ajustar el espacio entre la navbar y el contenido */
+  padding-top: 60px;
   padding-bottom: 80px;
-  min-height: 100vh; /* Asegurar que el contenido ocupe al menos toda la pantalla */
+  min-height: 100vh;
   box-sizing: border-box;
 }
 
@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  padding-top: 100px; 
+  padding-top: 100px;
   margin-bottom: 20px;
 }
 
@@ -61,7 +61,7 @@ img {
   width: 100%;
   margin-bottom: 60px;
   box-sizing: border-box;
-  padding-top: 80px; 
+  padding-top: 80px;
 }
 
 .overlay {
@@ -146,4 +146,24 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 3%;
+}
+
+.setUp-image {
+  margin-top: 20px;
+  max-width: 400px; 
+  height: auto;
+  border-radius: 3%;
+  transition: transform 0.3s ease-in-out; 
+}
+
+
+.images-container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+}
+
+.images-container:hover .latte-image, 
+.images-container:hover .setUp-image {
+  transform: scale(1);
 }
