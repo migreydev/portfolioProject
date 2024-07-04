@@ -146,24 +146,24 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 3%;
+  transition: transform 0.3s ease-in-out;
 }
 
 .setUp-image {
   margin-top: 20px;
-  max-width: 400px; 
+  max-width: 300px;
   height: auto;
   border-radius: 3%;
-  transition: transform 0.3s ease-in-out; 
+  transition: transform 0.3s ease-in-out;
 }
-
 
 .images-container {
   display: flex;
-  justify-content: center; 
-  gap: 20px; 
+  justify-content: center;
+  gap: 20px;
 }
 
-.images-container:hover .latte-image, 
+.images-container:hover .latte-image,
 .images-container:hover .setUp-image {
   transform: scale(1);
 }

@@ -8,17 +8,16 @@ footer {
   font-weight: 180;
   font-style: normal;
   z-index: 10;
-  display: flex;
-  justify-content: center;
+  position: relative;
 }
 
 .footer-content {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 100%;
   max-width: 1200px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 
 .footer-center {
@@ -29,9 +28,11 @@ footer {
 .footer-right {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 10px; 
+  gap: 10px;
+  position: absolute;
+  right: 20px;
 }
+
 .footer-right svg {
   width: 30px;
   height: 30px;
