@@ -1,89 +1,116 @@
 /* Estilos generales para la página */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 60px;
-    padding-bottom: 80px;
-    min-height: 100vh;
-    box-sizing: border-box;
-  }
-  
-  .content {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding-top: 100px;
-    margin-bottom: 20px;
-  }
-  
-  /* Overlay opcional si lo necesitas */
-  .overlay {
-    background-color: rgba(44, 43, 43, 0.603);
-    padding: 30px;
-    max-width: 1000px;
-    margin-top: 10px;
-    color: white;
-  }
-  
-  /* Estilos para el formulario de contacto */
-  .contact-form {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #333;
-    max-width: 600px; /* Puedes ajustar el ancho máximo según sea necesario */
-    width: 100%;
-    margin: 0 auto; /* Centra el formulario horizontalmente */
-  }
-  
-  /* Estilo del encabezado del formulario */
-  .contact-form h1 {
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-  
-  /* Estilo de las etiquetas del formulario */
-  .contact-form label {
-    display: block;
-    margin: 10px 0 5px;
-    font-family: "Anton", sans-serif;
-    color: #333;
-  }
-  
-  /* Estilos para los campos de entrada y el área de texto */
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #ddd;
-    margin-bottom: 10px;
-    font-family: Arial, sans-serif;
-    box-sizing: border-box;
-  }
-  
-  /* Estilo específico para el área de texto */
-  .contact-form textarea {
-    resize: vertical; /* Permite redimensionar el área de texto verticalmente */
-  }
-  
-  /* Estilo del botón de envío */
-  .contact-form button {
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    background-color: #000000;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    font-family: "Anton", sans-serif;
-  }
-  
-  .contact-form button:hover {
-    background-color: #363636;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ad00ff -0.3%, #ffb800 78.07%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 70px;
+  font-family: "Anton", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+/* Overlay opcional*/
+.overlay {
+  background-color: rgba(44, 43, 43, 0.603);
+  padding: 30px;
+  max-width: 1000px;
+  margin-top: 10px;
+  color: white;
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Estilo del encabezado del formulario */
+.contact-form h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Estilo de las etiquetas del formulario */
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-family: "Anton", sans-serif;
+  color: #333;
+}
+
+/* Estilos para los campos de entrada y el área de texto */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Estilo específico para el área de texto */
+.contact-form textarea {
+  resize: vertical;
+}
+
+/* Estilo del botón de envío */
+.contact-form button,
+.contact-form .download-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Anton", sans-serif;
+}
+
+/* Estilo para el botón de descarga */
+.contact-form .download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  width: auto;
+}
+
+/* Estilo del hover para el botón de envío y el botón de descarga */
+.contact-form button:hover,
+.contact-form .download-btn:hover {
+  background-color: #363636;
+}
