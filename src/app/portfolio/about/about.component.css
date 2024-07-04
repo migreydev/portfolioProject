@@ -216,8 +216,41 @@ img {
     font-size: 25px;
   }
 
-  .latte-image,
+  .latte-image {
+    max-width: 200px; 
+  }
+
   .setUp-image {
-    max-width: 100%;
+    max-width: 250px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .gradient-text {
+    font-size: 50px;
+  }
+
+  .second-line {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 11px;
+  }
+
+  .section-heading {
+    font-size: 20px;
+  }
+
+  .latte-image {
+    max-width: 150px; 
+  }
+
+  .setUp-image {
+    max-width: 200px;
   }
 }
