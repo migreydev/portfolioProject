@@ -38,7 +38,6 @@ footer {
   height: 30px;
 }
 
-
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
@@ -47,8 +46,8 @@ footer {
   }
 
   .footer-right {
-    position: relative; 
-    margin-top: 10px; 
+    margin-top: 10px;
+    position: static;
   }
 }
 
@@ -58,7 +57,7 @@ footer {
   }
 
   .footer-center p {
-    font-size: 10px; 
+    font-size: 10px;
   }
 
   .footer-right svg {
