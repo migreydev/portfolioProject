@@ -167,3 +167,57 @@ img {
 .images-container:hover .setUp-image {
   transform: scale(1);
 }
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    padding-top: 60px;
+  }
+
+  .text-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .gradient-text {
+    font-size: 60px;
+  }
+
+  .second-line {
+    font-size: 40px;
+    padding-left: 0;
+  }
+
+  img {
+    width: 250px;
+  }
+
+  .overlay {
+    padding: 20px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .gap-32 {
+    gap: 1rem;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 13px;
+  }
+
+  .section-heading {
+    font-size: 25px;
+  }
+
+  .latte-image,
+  .setUp-image {
+    max-width: 100%;
+  }
+}

@@ -114,3 +114,41 @@
 .contact-form .download-btn:hover {
   background-color: #363636;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .content {
+    padding-top: 60px;
+  }
+
+  .gradient-text {
+    font-size: 50px;
+  }
+
+  .contact-form {
+    padding: 15px;
+  }
+
+  .contact-form h1 {
+    font-size: 24px;
+  }
+
+  .contact-form label {
+    margin: 8px 0 4px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 8px;
+  }
+
+  .contact-form button,
+  .contact-form .download-btn {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+}
