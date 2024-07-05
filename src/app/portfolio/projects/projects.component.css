@@ -32,9 +32,10 @@
 }
 
 .text-container {
-  margin-right: 30px;
   padding: 0 10px;
   max-width: 1000px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .overlay {
@@ -52,8 +53,11 @@
   border-radius: 8px;
   overflow: hidden;
   background: rgba(44, 43, 43, 0.603);
-  margin: 0 auto;
+  margin: 20px auto; 
   color: white;
+  max-width: 800px; 
+  width: calc(100% - 40px); 
+  box-sizing: border-box; 
 }
 
 .card-img {
@@ -93,8 +97,24 @@
 @media (max-width: 768px) {
   .row {
     flex-direction: column;
+    align-items: center;
   }
+
   .col-md-6 {
     width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+  }
+
+  .project {
+    width: 90%;
+    margin: 0 auto; 
+  }
+  
+  .card {
+    max-width: 90%; 
+    margin: 20px auto; 
   }
 }
